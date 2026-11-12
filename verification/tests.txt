@@ -1,0 +1,21 @@
+00:00 +0: loading C:/Users/user/.cache/lab2025-lab05/test/bloc_test.dart
+00:00 +0: C:/Users/user/.cache/lab2025-lab05/test/bloc_test.dart: home emits loading then success
+00:00 +1: C:/Users/user/.cache/lab2025-lab05/test/bloc_test.dart: home emits loading then success
+00:00 +2: C:/Users/user/.cache/lab2025-lab05/test/bloc_test.dart: home preserves successful empty response
+00:00 +3: C:/Users/user/.cache/lab2025-lab05/test/bloc_test.dart: home emits failure and can recover on retry
+00:00 +4: C:/Users/user/.cache/lab2025-lab05/test/bloc_test.dart: detail emits loading then selected recipe
+00:00 +5: C:/Users/user/.cache/lab2025-lab05/test/bloc_test.dart: detail emits failure
+00:00 +6: C:/Users/user/.cache/lab2025-lab05/test/bloc_test.dart: detail retries successfully after failure
+00:35 +7: C:/Users/user/.cache/lab2025-lab05/test/repository_test.dart: list endpoint parses recipes envelope
+00:36 +8: C:/Users/user/.cache/lab2025-lab05/test/repository_test.dart: details make a separate request for the selected id
+00:36 +9: C:/Users/user/.cache/lab2025-lab05/test/repository_test.dart: empty list is a valid successful response
+00:36 +10: C:/Users/user/.cache/lab2025-lab05/test/repository_test.dart: malformed envelope does not silently become an empty list
+00:36 +11: C:/Users/user/.cache/lab2025-lab05/test/repository_test.dart: 404 is translated into a readable error
+00:36 +12: C:/Users/user/.cache/lab2025-lab05/test/repository_test.dart: invalid id is rejected before an HTTP request
+00:36 +13: C:/Users/user/.cache/lab2025-lab05/test/repository_test.dart: connection failure is translated into a readable error
+00:36 +14: C:/Users/user/.cache/lab2025-lab05/test/navigation_test.dart: changing detail route id loads the new recipe
+[38;5;135m┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────[0m
+[38;5;135m│ [route] | 19:22:29 419ms | Open route named /content/:id[0m
+[38;5;135m│ Arguments: {id: 1}[0m
+[38;5;135m└──────────────────────────────────────────────────────────────────────────────────────────────────────────────[0m
+00:42 +15: All tests passed!
